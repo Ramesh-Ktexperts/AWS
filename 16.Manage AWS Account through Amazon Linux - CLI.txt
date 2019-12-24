@@ -1,0 +1,6 @@
+Manage AWS Account through Amazon Linux - CLI
+----------------------------------------------
+Generate Access key and Secret key.
+Launch Linux Server and connect to Linux Server through putty. 
+Connect to Linux Server - CLI by providing Access key and Secret key. 
+Manage AWS Account

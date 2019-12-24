@@ -1,0 +1,7 @@
+Create AMI and Launch Amazon EC2 Instance from AMI
+-------------------------------------------------
+Launch Instance.
+Connect to Linux Server through putty and Install updates,package "tree" and create files,directories.
+Create AMI (Amazon Machine Image).
+Launch Instance from AMI (Amazon Machine Image).
+Connect to Linux Server through putty and verify  packages,files and directories.

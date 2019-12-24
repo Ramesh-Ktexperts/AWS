@@ -1,0 +1,29 @@
+	Project
+1. Go to North varginia
+2. Create new VPC (10.0.0.0/16)
+3. Create 2 subnets (10.0.1.0/24, 10.0.2.0/24 & 10.0.3.0/24)
+4. Assign public IP to first & second subnets
+5. Create IGW and attach to VPC
+6. Create Route Table (connect IGW-RT-First subnet & second subnet)
+7. Create NAT in first(10.0.1.0/24) subnet
+8. Modify existing default Route table (connect NAT-RT-Third subnet)
+9. Create IAM role (EC2-S3 full access)
+10. Create two S3 buckets 
+
+12. Create one Security Group(WebSG) (SSH & HTTP)
+13. Create Load balancer (Select both defaultSG & WebSG)
+14. Create Launch configuration (Attach IAM role)(Select both defaultSG & WebSG)(Create mount point & paste mount command in bootstrap script)
+15. Create auto scaling (Configure SNS notification)
+16. Create Route-53 health check
+17. Create new record set ( Failover routing poilicy)
+18. Launch EC2 machine in each subnet (Bastion server in PublicSN & Database server in PrivateSN)
+19. Open SSH to all in Bastion server 
+20. Open ssh to Bastion server & MySQL port to both public subnets in Database server.
+21. Copy Database server's pem key into Bastion server.
+22. Go inside Bastion server & form there, jump into Database server.
+23. Can verify whether you are getting internet or not in Database server.
+24. Create NACL & attach to both Public Subnets & open SSH, HTTP and Ephemeral ports to all in both inbound and outbound. 
+
+-------------------------------
+	Delete
+1. NAT, Record set, Health check, EFS, SNS, IAM Role, S3 buckets, Load balancer, Auto scaling, Launch configuration, Bastion server, Data base server, Elastic IP, VPC.

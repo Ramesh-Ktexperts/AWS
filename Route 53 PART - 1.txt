@@ -1,0 +1,5 @@
+Route 53 PART - 1
+------------------
+Create two Web Servers and attach to Load Balancer in Mumbai Region.
+Create one Web Server and attach to Load Balancer in Singapore Region.
+Copy and serach Load Balancer DNS in browser(can see content)

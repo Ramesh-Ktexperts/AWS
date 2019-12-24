@@ -1,0 +1,6 @@
+Route 53 PART - 2 
+-------------------
+Get your free domain
+Register a new domain and logging to freenom website
+Create Hosted Zone.
+Update Hosted Zone default values in your domain settings.

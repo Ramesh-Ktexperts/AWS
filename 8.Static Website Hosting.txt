@@ -1,0 +1,9 @@
+Static Website Hosting
+----------------------
+Create S3 Bucket by making it public.
+Enable Static Website Hosting and give file names(index.html.txt & error.html.txt).
+Create files with same names.
+Put some content and upload in S3 bucket.
+Copy Static Website URL.
+Search static website URL in browser(can see webpage).
+Make ram.txt file private(can see the content in error.txt file in webpage.

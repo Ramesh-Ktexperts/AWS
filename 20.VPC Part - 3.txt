@@ -1,0 +1,3 @@
+VPC PART - 3
+------------
+create a database server inside the private subnet ““192.168.2.0/24  – ap-south-1b (subnet-2)”

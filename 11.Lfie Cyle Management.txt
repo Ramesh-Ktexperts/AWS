@@ -1,0 +1,8 @@
+Life Cycle Management
+-----------------------
+Create S3 bucket by making it public.
+Enable Versioning.
+Add Life Cycle Rule in the lift cycle management.
+Give rule name,take current version & add transitions(30,60,90,120).
+Upload objects in the S3 bucket
+Configure expiration for current version.

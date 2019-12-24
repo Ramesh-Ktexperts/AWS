@@ -1,0 +1,7 @@
+Route 53 PART - 3
+----------------------
+Simple Routing Policy
+Weighted Routing Policy
+Latency Routing Policy
+Failover Routing Policy
+Geolocation Routing Policy

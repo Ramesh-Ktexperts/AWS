@@ -1,0 +1,27 @@
+Create MySQL DB Instance in Amazon RDS
+--------------------------------------
+Create MySQL DB Instance
+Download connect.php file.
+open connect.php file and replace username, password, hostname and DB name.
+Create S3 Bucket
+Upload connect.php file in S3 bucket.
+Create Web Server (Specify required commands along with Amazon S3 object's URL) in userdata.
+search PublicIP/index.php in browser.
+search PublicIP/connect.php in browser.(Unable to connect MySQL)
+Add MYSQL/Aurora and open to web server private IP in your DB Instance VPC security groups.
+search PublicIP/connect.php in browser.
+Able to see succussfully connected message by seraching publicIP/connect.php in browser.
+
+
+
+The Commands are..
+
+#!/bin/bash
+sudo su
+yum install httpd php php-mysql -y
+yum update -y
+chkconfig httpd on
+service httpd start
+cd /var/www/html
+echo "ktexperts is a knowledge sharing platform" > index.php
+wget https://ktexpertsbucket.s3.ap-south-1.amazonaws.com/connect.php

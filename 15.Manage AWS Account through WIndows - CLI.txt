@@ -1,0 +1,6 @@
+Manage AWS Account through WIndows - CLI
+----------------------------------------
+Generate Access key and Secret key.
+Download and Install AWS Command Line Interface Package.
+Connect to Windows - CLI by providing Access key and Secret key. 
+Manage AWS Account

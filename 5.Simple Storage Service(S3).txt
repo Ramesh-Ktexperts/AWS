@@ -1,0 +1,6 @@
+  S3(Simple storage service)
+----------------------------
+Create S3 bucket by making it public.
+Upload object by making it public. Can access object.
+Make object private and try to access it. Can't.
+Verify all bucket level options and object level option. 

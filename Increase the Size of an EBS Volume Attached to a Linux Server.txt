@@ -1,0 +1,5 @@
+Launch Instance/Linux Server.
+Connect to Linux Server through putty then verify size of volume.
+Increase size of volume.
+Reboot Instance
+Connect to Linux Server through putty then verify size of volume.

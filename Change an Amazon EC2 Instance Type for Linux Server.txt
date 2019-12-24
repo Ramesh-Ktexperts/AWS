@@ -1,0 +1,4 @@
+Launch Instance.
+Stop Instance.
+Change instance type of your Instance.
+Start Instance.

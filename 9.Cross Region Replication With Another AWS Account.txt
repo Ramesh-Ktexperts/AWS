@@ -1,0 +1,9 @@
+Cross Region Replication with Another AWS Account
+-------------------------------------------------
+Create S3 bucket in Source AWS Account(Mumbai Region)
+Enable versioning in Source bucket AWS Account.
+Create S3 bucket in Destination AWS Account(Singapore Region).
+Enable versioning in Destination bucket AWS Account.
+Configure CRR in source bucket AWS Account.
+Upload objects in Source Bucket AWS Account.
+Verify objecdts in Destination bucket AWS Account.

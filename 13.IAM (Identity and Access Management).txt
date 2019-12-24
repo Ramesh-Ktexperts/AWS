@@ -1,0 +1,22 @@
+IAM (Identity and Access Management)
+------------------------------------
+Create 2 users 1 group(add AmazonEC2FullAccess policy).
+Create another group(add AmazonS3FullAccess policy)
+Remove one user from first group
+Add this user to second group
+Add AmazonGlacierFullAccess to second user directly.
+Logging to AWS Account for both users.
+
+
+
+
+Create 2 users “Ramesh” and “Ajay”
+Create 2 groups “EC2 Full Access” and “S3 Full Access”
+Give permission to groups “AmazonEC2FullAccess” and “AmazonS3FullAccess”
+First group has AmazonEC2FullAccess
+Second group has AmazonS3FullAccess
+Add first user “Ramesh” to first group “EC2 Full Access”
+First user has only one permission “AmazonEC2FullAccess”
+Add second user “Ajay” to second group “S3 Full Access”
+Give one direct permission “AmazonGlacierFullAccess” to second user Ajay”
+Second user has 2 permissions “AmazonS3FullAccess” and “AmazonGlacierFullAccess”.

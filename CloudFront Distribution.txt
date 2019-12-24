@@ -1,0 +1,5 @@
+Create S3 bucket by making it public.
+Upload object by making it public.
+Search object URL in browser (Can see content with latency).
+Create CloudFront Distribution.
+Search CloudFront Distribution Domain Name in browser ((Can see content without latency).

@@ -1,0 +1,16 @@
+VPC PART - 5
+------------
+connect to database server through Bastian server.
+Copy Database Server pem key to bastian server with the help of WinSCP tool.
+Download and Install WinSCP tool.
+Convert BastionServer keypair "bastionserver.pem"  to "bastionserver.ppk" by using puttygen.
+Connect to Bastion Server through putty.
+copy Database Server keypair “dbserver.pem” to BastionServer home location “/home/ec2-user”.
+Connect to DBServer through BastionServer.
+Providing internet to database server.
+Create NAT Gateway and Provide Internet to DBServer.
+Modify existing default Route Table. 
+Connect to NAT Gateway and Private Subnet.
+Install required packages in database server.
+
+

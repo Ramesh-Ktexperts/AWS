@@ -1,0 +1,13 @@
+Dynamo Db
+---------
+Create one role and attached to source "Amazon EC2" and Destination "Amazon DynamoDB FullAccess".
+Launch DynamoDB Web Server and Attach Role “Dynamodb”.
+Connect to Dynamo DB Web Server through putty.
+Run 2 commands(AWS SDK for PHP-Install by using composer) inside html Directory.
+Go to dynamodb directory  open createtables.php and uploaddata.php  files and change the required region(ap-south-1).
+Create tables and upload data into dynamoDB.
+
+
+
+curl -sS https://getcomposer.org/installer | php
+php composer.phar require aws/aws-sdk-php

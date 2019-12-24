@@ -1,0 +1,10 @@
+SNS (Simple Notification Service)
+---------------------------------
+Create Topic.
+Create Subscription.
+Confirm Subscription in Mail.
+Create Auto Scaling along with add SNS Notification.
+Verify Notifications in your mail.
+Terminate one webserver for testing purpose.
+Verify Notifications in your mail.
+

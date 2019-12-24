@@ -1,0 +1,7 @@
+VPC PART - 1
+-------------
+Create VPC and assign IP range.
+Create two subnets inside the VPC and assign IP range for both subnets.(By default two subnets are private).
+Create Internet Gateway for providing internet to the subnet -1.
+Create Route Table.
+One end of the Route Table has connect to the Internet Gateway and another end of Route Table connect to public subnet.

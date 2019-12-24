@@ -1,0 +1,6 @@
+IAM Roles
+----------
+Create a role and attached source “EC2” and Destination “AmazonS3FullAccess”.
+Launch one instance and assign this role to the EC2 instance.
+Connect to Linux server through putty
+Manage S3 bucket through role instead of giving credentials.
